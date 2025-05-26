@@ -1,8 +1,8 @@
 [Proxy]
 Enabled_Update = false                      # Whether to download MCC updates via proxy.
 Enabled_Login = false                       # Whether to connect to the login server through a proxy.
-Enabled_Ingame = true                      # Whether to connect to the game server through a proxy.
-Server = { Host = "127.0.0.1", Port = 1080 }  # Proxy server must allow HTTPS for login, and non-443 ports for playing.
-Proxy_Type = "SOCKS5"                         # Supported types: "HTTP", "SOCKS4", "SOCKS4a", "SOCKS5".
+Enabled_Ingame = false                      # Whether to connect to the game server through a proxy.
+Server = { Host = "0.0.0.0", Port = 8080 }  # Proxy server must allow HTTPS for login, and non-443 ports for playing.
+Proxy_Type = "HTTP"                         # Supported types: "HTTP", "SOCKS4", "SOCKS4a", "SOCKS5".
 Username = ""                               # Only required for password-protected proxies.
 Password = ""                               # Only required for password-protected proxies.
