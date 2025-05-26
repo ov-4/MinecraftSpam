@@ -5,7 +5,7 @@ Spam bot using Minecraft Console Client
 
 config/user/AutoLogin/password : string : password
 
-config/user/DmSpam/spam.txt : string[] : spam text
+config/user/DmSpam/spam.txt : string : spam text
 
 config/user/DmSpam/delay.txt : double : interval per message
 
