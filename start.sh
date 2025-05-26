@@ -36,6 +36,8 @@ awk -v repl="$proxy_block" '
 mv "${CONFIG_INI}.tmp" "$CONFIG_INI"
 
 echo "Config has been updated"
-sleep 5
 
-./MinecraftClient
+while true; do
+  sleep 5
+  ./MinecraftClient
+done
