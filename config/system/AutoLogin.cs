@@ -16,6 +16,7 @@ class AutoLogin : ChatBot
             {
                 SendText("/login " + password);
                 LogToConsole("§eLogin Successfully");
+                SendText("/msg"); // active auto respond
             }
             else
             {
