@@ -1,6 +1,6 @@
 # MinecraftSpam
 
-Spam bot using Minecraft Console Client
+Spam bot using [Minecraft Console Client](https://github.com/MCCTeam/Minecraft-Console-Client)
 
 ## Usage
 
